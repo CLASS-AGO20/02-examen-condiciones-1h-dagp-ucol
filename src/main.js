@@ -42,7 +42,74 @@ costoRenta(kilometros) {
     return resultado;
 }
 
+//Funcion de Circulacion de vehiculo
+puedeCircular(dia, terminacion) {
+    let resultado;
+    switch (dia) {
+        case 1:
+            if (terminacion == 0 || terminacion > 2) {
+                resultado = true;
+            } else {
+                resultado = false;
+            }
+            break;
+            
+        case 2:
+            if (terminacion == 1 || terminacion > 2) {
+                resultado = true;
+            } else {
+                resultado = false;
+            }
+            break;
 
+        case 3:
+            if (terminacion == 2 || terminacion > 2) {
+                resultado = true;
+            } else {
+                resultado = false;
+            }
+            break;
+
+        case 4:
+            if (terminacion == 2 || terminacion > 2) {
+                resultado = true;
+            } else {
+                resultado = false;
+            }
+            break;
+
+        case 5:
+            if (terminacion > 2) {
+                resultado = true;
+            } else {
+                resultado = false
+            }
+            break;
+
+        case 6:
+            if (terminacion > 2) {
+                resultado = true;
+            } else {
+                resultado = false
+            }
+            break;
+
+        case 7:
+            if (terminacion > 2) {
+                resultado = true;
+            } else {
+                resultado = false
+            }
+            break;
+    
+        default:
+            resultado = false;
+            break;
+    }
+
+
+    return resultado;
+}
 
 
 
