@@ -1,3 +1,7 @@
+//Examen 02 Condiciones
+//Alumno Diego Alejandro Gentner Polanco
+//Fundamentos de Programacion er Parcial
+
 export default class App {
 
 // Funcion de convertir pesos a euros o dolares
